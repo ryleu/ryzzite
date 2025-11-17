@@ -5,10 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 00 22 * * * TUE,FRI'  # At 10:00 PM, only in TUE and FRI
-  push:
-    branches:
-      - main
+    - cron: '0 22 * * 0'  # At 10:00 PM on Sunday
     paths-ignore:
       - '**/README.md'
   workflow_dispatch:
