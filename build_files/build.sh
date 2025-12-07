@@ -2,5 +2,5 @@
 
 set -ouex pipefail
 
-dnf5 install -y podman-compose
+dnf5 install -y podman-compose toolbox
 
