@@ -2,5 +2,5 @@
 
 set -ouex pipefail
 
-dnf5 install -y podman-compose toolbox headsetcontrol
+dnf5 install -y podman-compose toolbox headsetcontrol whisper-cpp
 
